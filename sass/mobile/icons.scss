@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+    .icons {
+        margin: 0 2px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-content: unset;
+        height: 170vh;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    
+    .icons img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .icons h2, .icons p {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+    .icons p {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .icons .one {
+        margin-top: 100px;
+    }
+    
+    .icons .one, .icons .two, .icons .three {
+        height: 200px;
+        width: 200px;
+        padding: 30px 5px;
+    }
+}

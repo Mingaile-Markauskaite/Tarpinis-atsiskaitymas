@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-content: unset;
+        height: 180vh;  
+        margin: 0 auto; 
+    }
+    
+    .features div {
+        height: fit-content;
+        width: fit-content; 
+        display: block;
+        margin:  20px; 
+    }
+    
+    .features img {
+        height: 550px;
+        width: 100%;
+        object-fit: cover;
+        object-position: left top;
+    }
+    
+    .features h2, .features p {
+        font-family: 'Lato', sans-serif;
+        text-align: left;
+        padding: 5px 20px;
+    }
+    
+    .features h2 {
+        font-size: 40px;
+    }
+    
+    .features p {
+        font-size: 25px;
+        font-weight: lighter;
+        color: grey;
+    }
+}

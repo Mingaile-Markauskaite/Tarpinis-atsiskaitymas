@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    padding: 50px;
+    background-image: url(bg-masthead.jpg);
+    background-position: center;
+    background-color: #1188e9;
+    background-size: cover;
+    background-blend-mode: inherit;
+
+    .container .text {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        color: white;
+        padding: 0 480px;
+        text-align: center;
+    }
+
+    .container .email {
+        margin: 0 10px;
+        width: 500px;
+        height: 40px;
+        margin-left: 15px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+    }
+
+
+    .container .signUp {
+        border: none;
+        background-color: #1188e9;
+        height: 40px;
+        width: 15vh;
+        border-radius: 5px;
+        padding-right: 20px;
+    }
+
+    .container .signUp a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white
+    }
+}
+

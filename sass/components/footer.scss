@@ -1,0 +1,37 @@
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    background-color: $bg_color;
+
+    .socialMedia a {
+        text-decoration: none;
+    }
+
+    .socialMedia img {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .info {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .copyright {
+        font-size: 14px;
+        color: grey;
+    }
+
+    .info a {
+        text-decoration: none;
+        color: $main_color;
+    }
+
+    .info .point:after {
+        content: "‧";
+        color: $main_color;
+        padding: 0 10px;
+    }
+}

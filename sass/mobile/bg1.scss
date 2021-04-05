@@ -1,0 +1,56 @@
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0px 2px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        background-image: url(bg-masthead.jpg);
+        background-position: center;
+        background-color: $main_color;
+        background-size: cover;
+        background-blend-mode: inherit;
+    }
+    
+    .container .text {
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        font-size: 35px;
+        color: white;
+        padding: 20px 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    
+    .container .email {
+        margin-bottom: 5px;
+        padding: 0 10px;
+        width: 250px;
+        height: 40px;
+        margin-left: 15px;
+        border-radius: 3px;
+        border: none;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    
+    .container .signUp {
+        border: none;
+        background-color: $main_color;
+        height: 40px;
+        width: 270px;
+        border-radius: 3px;
+        padding: 0 10px;
+    }
+    
+    .container .signUp a {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+    }
+}

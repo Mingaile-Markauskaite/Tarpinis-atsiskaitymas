@@ -1,0 +1,21 @@
+$main_color: #1188e9;
+$bg_color: whitesmoke;
+
+@import "components/bg_bottom-registration.scss";
+@import "components/bg-registration.scss";
+@import "components/features.scss";
+@import "components/feedback.scss";
+@import "components/footer.scss";
+@import "components/header.scss";
+@import "components/icons.scss";
+@import "mobile/bg1.scss";
+@import "mobile/bg2.scss";
+@import "mobile/features.scss";
+@import "mobile/feedback.scss";
+@import "mobile/footer.scss";
+@import "mobile/header.scss";
+@import "mobile/icons.scss";
+
+body {
+    margin: 0 10px;
+}

@@ -1,0 +1,41 @@
+.color {
+    background-color: $bg_color;
+}
+
+.feedback {
+    text-align: center;
+    padding-top: 90px;
+    background-color: $bg_color;
+
+    .feedback h2 {
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+    }
+
+    .feedback-container {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 400px;
+        padding-top: 30px;
+        background-color: $bg_color;
+    }
+
+    .feedback-people {
+        height: 200px;
+        width: 200px;
+        margin: 0 100px;
+    }
+
+    .feedback-people h3, .feedback-people p {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .feedback-people img {
+        border-radius: 50%;
+        height: 200px;
+        box-shadow: 0 5px 5px grey;
+    }
+}

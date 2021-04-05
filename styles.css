@@ -1,0 +1,610 @@
+body {
+    margin: 0 10px;
+}
+
+header {
+    display: flex; 
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background-color: azure;
+    margin: 0;
+    position: fixed;
+    opacity: 0.8;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+header .login {
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: #1188e9;
+    border: none;
+    border-radius: 5px
+}
+
+header .login a {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    padding: 50px;
+    background-image: url(bg-masthead.jpg);
+    background-position: center;
+    background-color: #1188e9;
+    background-size: cover;
+    background-blend-mode: inherit;
+}
+
+.container .text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding: 0 480px;
+    text-align: center;
+}
+
+.container .email {
+    margin: 0 10px;
+    width: 500px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+
+.container .signUp {
+    border: none;
+    background-color: #1188e9;
+    height: 40px;
+    width: 15vh;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+
+.container .signUp a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: azure;
+}
+
+.icons img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons h2, .icons p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.icons p {
+    font-size: 18px;
+}
+
+.icons .one, .icons .two, .icons .three {
+    height: 200px;
+    width: 300px;
+    padding: 0 50px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 600px;  
+    margin: 0 auto; 
+}
+
+.features div {
+    height: 600px;
+    width: 50%; 
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.features img {
+   height: 100%;
+   width: 50%; 
+}
+
+.features h2, .features p {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 5px;
+}
+
+.features h2 {
+    font-size: 30px;
+}
+
+.features p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.features:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.color {
+    background-color: azure;
+}
+
+.feedback {
+    text-align: center;
+    padding-top: 90px;
+    background-color:  azure;
+}
+
+.feedback h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+
+.feedback-container {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    padding-top: 30px;
+    background-color:  azure;
+}
+
+.feedback-people {
+    height: 200px;
+    width: 200px;
+    margin: 0 100px;
+}
+
+.feedback-people h3, .feedback-people p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.feedback-people img {
+    border-radius: 50%;
+    height: 200px;
+    box-shadow: 0 5px 5px grey;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 35vh;
+    padding: 50px;
+    background-image: url(bg-masthead.jpg);
+    background-position: center;
+    background-color: #1188e9;
+    background-size: cover;
+    background-blend-mode: inherit;
+}
+
+.registration h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    padding: 0 480px;
+    text-align: center;
+}
+
+.registration-email {
+    margin: 0 10px;
+    width: 500px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+
+.registration-signUp {
+    border: none;
+    background-color: #1188e9;
+    height: 40px;
+    width: 15vh;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+
+.registration-signUp a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    background-color: azure;
+}
+
+.socialMedia a {
+    text-decoration: none;
+}
+
+.socialMedia img {
+    height: 50px;
+    padding: 0 10px;
+}
+
+.info {
+    font-family: 'Lato', sans-serif;
+}
+
+.copyright {
+    font-size: 14px;
+    color: grey;
+}
+
+.info a {
+    text-decoration: none;
+    color: #1188e9;
+}
+
+.info .point:after {
+    content: "‧";
+    color: #1188e9;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    
+    header {
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        background-color: white;
+        margin: 0;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    
+    }
+    
+    header .login {
+        height: 40px;
+        width: 70px;
+        background-color: #1188e9;
+        border: none;
+        border-radius: 3px;
+        margin-bottom: 9px;
+    }
+    
+    header .login a {
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    
+    .container {
+        margin: 0px 2px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        background-image: url(bg-masthead.jpg);
+        background-position: center;
+        background-color: #1188e9;
+        background-size: cover;
+        background-blend-mode: inherit;
+    }
+    
+    .container .text {
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        font-size: 35px;
+        color: white;
+        padding: 20px 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    
+    .container .email {
+        margin-bottom: 5px;
+        padding: 0 10px;
+        width: 250px;
+        height: 40px;
+        margin-left: 15px;
+        border-radius: 3px;
+        border: none;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    
+    .container .signUp {
+        border: none;
+        background-color: #1188e9;
+        height: 40px;
+        width: 270px;
+        border-radius: 3px;
+        padding: 0 10px;
+    }
+    
+    .container .signUp a {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .icons {
+        margin: 0 2px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-content: unset;
+        height: 170vh;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    
+    .icons img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .icons h2, .icons p {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+    .icons p {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .icons .one {
+        margin-top: 100px;
+    }
+    
+    .icons .one, .icons .two, .icons .three {
+        height: 200px;
+        width: 200px;
+        padding: 30px 5px;
+    }
+    
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-content: unset;
+        height: 180vh;  
+        margin: 0 auto; 
+    }
+    
+    .features div {
+        height: fit-content;
+        width: fit-content; 
+        display: block;
+        margin:  20px; 
+    }
+    
+    .features img {
+        height: 550px;
+        width: 100%;
+        object-fit: cover;
+        object-position: left top;
+    }
+    
+    .features h2, .features p {
+        font-family: 'Lato', sans-serif;
+        text-align: left;
+        padding: 5px 20px;
+    }
+    
+    .features h2 {
+        font-size: 40px;
+    }
+    
+    .features p {
+        font-size: 25px;
+        font-weight: lighter;
+        color: grey;
+    }
+    
+    .color {
+        background-color: whitesmoke;
+    }
+    
+    .feedback {
+        text-align: center;
+        padding-top: 90px;
+        background-color:  whitesmoke;
+    }
+    
+    .feedback h2 {
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+    }
+    
+    .feedback-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        height: 220vh;
+        background-color:  whitesmoke;
+    }
+    
+    .feedback-people {
+        height: 500px;
+        width: fit-content;
+        margin: 0 60px;
+    }
+    
+    .feedback-people h3, .feedback-people p {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        margin: 10px;
+    }
+
+    .feedback-people p {
+        color: gray;
+    }
+    
+    .feedback-people img {
+        border-radius: 50%;
+        height: 250px;
+        box-shadow: 0 5px 5px grey;
+    }
+    
+    .registration {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        height: 100vh;
+        padding: 0 30px;
+        background-image: url(bg-masthead.jpg);
+        background-position: center;
+        background-color: #1188e9;
+        background-size: cover;
+        background-blend-mode: inherit;
+    }
+    
+    .registration h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+        letter-spacing: 1px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .registration-email {
+        margin-bottom: 5px;
+        padding: 0 10px;
+        width: 250px;
+        height: 40px;
+        margin-left: 15px;
+        border-radius: 3px;
+        border: none;
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    
+    .registration-signUp {
+        border: none;
+        background-color: #1188e9;
+        height: 40px;
+        width: 270px;
+        border-radius: 3px;
+        padding: 0 10px;
+    }
+    
+    .registration-signUp a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    footer {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+    }
+    
+    .socialMedia a {
+        text-decoration: none;
+        
+    }
+    
+    .socialMedia img {
+        height: 50px;
+        padding: 0 10px;
+        margin-bottom: 100px;
+    }
+    
+    .info {
+        font-family: 'Lato', sans-serif;
+        margin: 30px 30px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .copyright {
+        font-size: 14px;
+        color: grey;
+    }
+    
+    .info a {
+        text-decoration: none;
+        color: #1188e9;
+    }
+    
+    .info .point:after {
+        content: "‧";
+        color: #1188e9;
+        padding: 0 10px;
+    }
+}

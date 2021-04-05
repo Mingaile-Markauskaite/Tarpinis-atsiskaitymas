@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+    footer {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+    }
+    
+    .socialMedia a {
+        text-decoration: none;
+        
+    }
+    
+    .socialMedia img {
+        height: 50px;
+        padding: 0 10px;
+        margin-bottom: 100px;
+    }
+    
+    .info {
+        font-family: 'Lato', sans-serif;
+        margin: 30px 30px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .copyright {
+        font-size: 14px;
+        color: grey;
+    }
+    
+    .info a {
+        text-decoration: none;
+        color: #1188e9;
+    }
+    
+    .info .point:after {
+        content: "‧";
+        color: #1188e9;
+        padding: 0 10px;
+    }
+}
